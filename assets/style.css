@@ -1,0 +1,49 @@
+div {
+    border: 1px solid gray;
+
+}
+
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 33%;
+}
+
+.img {
+    margin-bottom: 1em;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    padding: 0em 1em;
+    justify-content: space-between;
+}
+
+.journey h1 {
+    color: #092A5E;
+    font-size: 2em;
+    margin-top: 0em;
+    margin-bottom: 0mm;
+}
+
+.journey h2 {
+    color: #8B9194;
+    font-size: 2em;
+    margin-top: 0mm;
+}
+
+.small-m img {
+    height: auto;
+    width: 2em;
+}
+
+.logo {}
+
+.logo-img {
+    height: auto;
+    width: 7em;
+}
