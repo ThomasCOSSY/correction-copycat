@@ -1,11 +1,11 @@
-div {
-    border: 1px solid gray;
 
-}
 
 .container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 33%;
+    border: 1px solid #8B9194;
+    padding-bottom: 4em;
+    margin: auto;
 }
 
 .img {
@@ -115,4 +115,22 @@ div {
     font-weight: bold;
     margin-left: 1.5em;
 
+}
+
+.third-row span{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.fourth-row, .fourth-row p{
+    display: flex;
+    padding: 0em 1em;
+    color: #8B9194;
+    margin: 0em;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.fourth-row img{
+    width: 4em;
 }
