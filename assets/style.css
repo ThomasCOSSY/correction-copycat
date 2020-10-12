@@ -17,7 +17,7 @@ div {
     height: auto;
 }
 
-.row {
+.first-row {
     display: flex;
     padding: 0em 1em;
     justify-content: space-between;
@@ -41,9 +41,78 @@ div {
     width: 2em;
 }
 
-.logo {}
 
 .logo-img {
     height: auto;
     width: 7em;
+}
+
+.second-row {
+    display: flex;
+    padding: 0em 1em;
+    align-items: baseline;
+}
+
+.rating {
+    color: #70cbf4;
+    font-size: 2em;
+    padding: 0.1em;
+
+}
+
+.rating p {
+    margin: 0em;
+}
+
+.mark-size {
+    font-size: 1.2em;
+
+}
+
+.review {
+    color: #092A5E;
+    font-size: 2em;
+    padding: 0.1em;
+
+}
+
+.review p {
+    margin: 0em;
+}
+
+.third-row {
+    padding: 0em 1em;
+
+}
+
+.third-row p {
+    color: #8B9194;
+    margin: 0em;
+    font-size: 2em;
+}
+
+.product-price,
+.product-price p {
+    color: #D40E14;
+    display: flex;
+    align-items: center;
+}
+
+
+.price {
+    font-size: 5em;
+}
+
+.i-price {
+    font-size: 2em;
+}
+
+.clearance {
+    color: white;
+    background-color: #D40E14;
+    font-size: 2em;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    margin-left: 1.5em;
+
 }
